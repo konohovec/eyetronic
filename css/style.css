@@ -724,6 +724,7 @@ body.lock {
 
   .main__item {
     min-width: 316px;
+    margin-top: 60px;
     padding-right: 0;
   }
 
