@@ -1,11 +1,10 @@
 function testWebP(callback) {
-
     var webP = new Image();
     webP.onload = webP.onerror = function () {
     	callback(webP.height == 2);
     };
     webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-}
+};
 testWebP(function (support) {
     if (support == true) {
 		document.querySelector('body').classList.add('webp');
@@ -13,15 +12,13 @@ testWebP(function (support) {
     	document.querySelector('body').classList.add('no-webp');
     };
 });
-
 function testWebP(callback) {
     var webP = new Image();
     webP.onload = webP.onerror = function () {
     	callback(webP.height == 2);
     };
     webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-}
-    
+};
 testWebP(function (support) {
     if (support == true) {
 	    document.querySelector('body').classList.add('webp');
@@ -29,7 +26,6 @@ testWebP(function (support) {
     	document.querySelector('body').classList.add('no-webp');
     };
 });
-
 $(document).ready(function () {
 	$('.header__burger').click(function (event) {
 		$('.header__burger, .header__menu, .header__body, .header__lang, .header__call, .header__name, .header__content').toggleClass('active');
@@ -40,7 +36,6 @@ $(document).ready(function () {
 		$('body').toggleClass('lock');
 	});
 });
-
 $(function () {
 	$.scrollUp({
 		scrollName: 'scrollup',      // ID элемента
