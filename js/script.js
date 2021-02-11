@@ -43,7 +43,7 @@ $(document).ready(function () {
 
 $(function () {
 	$.scrollUp({
-		scrollName: 'scrollup',       // ID элемента
+		scrollName: 'scrollup',      // ID элемента
 		scrollDistance: 300,         // Расстояние от начала страницы до показа кнопки (в пикселях)
 		scrollFrom: 'top',           // 'top' или 'bottom' (лучше задать стилями)
 		scrollSpeed: 300,            // Скорость прокрутки (в миллисекундах)
@@ -54,7 +54,7 @@ $(function () {
 		scrollTarget: false,         // До куда скролим (может быть класс или id), по умолчанию самый верх страницы
 		scrollText: 'Вверх',         // Текст в кнопке
 		scrollTitle: false,          // Задаем title кнопки
-		scrollImg: true,            // Если в качестве кнопки используем изображение
+		scrollImg: true,             // Если в качестве кнопки используем изображение
 		zIndex: 2147483647           // z-index для точки срабатывания
 	});
 });
